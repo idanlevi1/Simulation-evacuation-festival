@@ -2,7 +2,7 @@
 
 This simulation of "Case Studies in Fire Safety" journal. https://www.sciencedirect.com/science/article/pii/S2214398X15300066?via%3Dihub 
 
-![giphy](https://user-images.githubusercontent.com/21155847/36806580-1ea1d5c2-1cc9-11e8-86c4-7137ae38550f.gif)
+![webp net-gifmaker](https://user-images.githubusercontent.com/21155847/36811681-50d6184c-1cd7-11e8-8166-6a95b5c2e942.gif)
 
 ## 3 main scenarios
 ![5](https://user-images.githubusercontent.com/21155847/36806711-9509b216-1cc9-11e8-88c8-c0b1c2e02ffe.png)
