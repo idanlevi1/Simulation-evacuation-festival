@@ -115,18 +115,10 @@ namespace SimulationEvacuationOfMusicFestivals
                     if (i == numStages.Count - 1)
                         if (peopleOut < PerSecINT)
                             i = -1;
-                  /*  RemoveEmptyStages(listStages, numStages);
-                    if (numStages.Count == 0)
-                    {
-                        partPeopleTemp = 0;
-                        break;
-                    }*/
                         
                 }
                 PerSecINT = PerSecTemp;
-         //       int calc = partPeople - partPeopleTemp;
-        //        Console.WriteLine("people PART: " + partPeople + " people OUT: " + calc);
-                  Console.WriteLine("people Out: " + peopleOut + " Time: "+time);
+                Console.WriteLine("people Out: " + peopleOut + " Time: "+time);
             }
             return time;
         }

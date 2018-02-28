@@ -100,15 +100,7 @@ namespace SimulationEvacuationOfMusicFestivals
                     break;
             }
         }
-        public void thread1()  // Quadrados Vermelhos
-        {
-            /*
-            for (int i = 0; i < 20; i++)
-            {
-                this.CreateGraphics().DrawEllipse(new Pen(Brushes.Red, 4), new Rectangle(rdm.Next(this.Width / 4, this.Width / 2), rdm.Next(this.Height / 4, this.Height / 2), 3, 3));
-                Thread.Sleep(100);
-            }*/
-        }
+
         void Scenario1(List<Stages> listStages)
         {
             //scenario 1
@@ -422,9 +414,6 @@ namespace SimulationEvacuationOfMusicFestivals
             dataGridView.Columns[dataGridView.ColumnCount - 1].DefaultCellStyle.ForeColor = Color.Blue;
             
             CircleProgressbar.Value += 90;
-            //---PLAY THREADS 
-            //   th1 = new Thread(thread1);
-            //  th1.Start();
         }
         private void timer_Tick(object sender, EventArgs e)
         {
